@@ -104,4 +104,27 @@ padding: 0px;
 }
 .card{
     max-width: 424px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.card .image-box{
+    width: 424px;
+}
+.card .image-box img{
+    width: 100%;
+}
+.card .shop{
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    padding: 14px 32px 14px 32px;
+    color: rgba(16, 16, 16, 1);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
 }
