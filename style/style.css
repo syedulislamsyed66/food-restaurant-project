@@ -17,6 +17,7 @@ padding: 0px;
      letter-spacing: 0%;
      text-align: center;
      border: none;
+     cursor: pointer;
 
 }
 .btn-container{
@@ -101,6 +102,10 @@ padding: 0px;
 }
 .card-container{
     margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-family: Work Sans;
 }
 .card{
     max-width: 424px;
